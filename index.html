@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17132b">
+<meta name="description" content="Mishra Harmonium Works, Mission Road, Sadar Bazar, Chitrakoot Dham, Karwi — musical instruments, accessories and repairing services.">
+<title>Mishra Harmonium Works | Instruments & Repairing</title>
+<style>
+:root{--ink:#19152b;--purple:#6946c6;--gold:#f4bd54;--paper:#f7f5fb;--muted:#716d80;--green:#159b63;--line:#e9e5f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(1160px,92%);margin:auto}
+.top{background:#100d20;color:#eeeaf8;font-size:13px;padding:8px 0}.top .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+header{background:var(--ink);color:white;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px #130d291c}.head{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:850;font-size:22px;letter-spacing:.2px;color:var(--gold)}.brand small{display:block;color:#d9d3e9;font-size:11px;font-weight:500;letter-spacing:1px}
+.actions{display:flex;gap:9px;flex-wrap:wrap}.btn{border:0;border-radius:9px;padding:11px 16px;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-weight:750;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.04)}.gold{background:var(--gold);color:#21182a}.purple{background:var(--purple);color:white}.green{background:var(--green);color:white}.outline{border:1px solid #ffffff55;color:white;background:transparent}
+nav{background:#28213e;color:#fff}.navlinks{display:flex;gap:24px;align-items:center;justify-content:center;flex-wrap:wrap;padding:12px 0;font-size:14px}.navlinks a:hover{color:var(--gold)}
+.hero{background:radial-gradient(circle at 80% 20%,#63469b 0,#342650 36%,#17132b 78%);color:#fff;padding:76px 0 82px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:35px;align-items:center}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:12px}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.12;margin:13px 0}.hero h1 span{color:var(--gold)}.hero p{max-width:650px;color:#e3deef;font-size:17px}.hero-buttons{display:flex;gap:11px;flex-wrap:wrap;margin-top:25px}.hero-art{min-height:260px;border:1px solid #ffffff24;border-radius:28px;background:linear-gradient(145deg,#ffffff1b,#ffffff08);display:grid;place-items:center;text-align:center;padding:24px}.hero-art .music{font-size:100px;filter:drop-shadow(0 12px 16px #0005)}.hero-art strong{display:block;font-size:18px;color:var(--gold)}
+section{padding:66px 0}.section-head{text-align:center;margin:0 auto 34px;max-width:700px}.section-head h2{font-size:clamp(26px,3vw,34px);margin:0;color:var(--ink)}.section-head h2:after{content:"";display:block;width:54px;height:4px;background:var(--gold);border-radius:9px;margin:12px auto}.section-head p{color:var(--muted);margin:0}
+.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.product{background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 8px 25px #20143b09;display:flex;flex-direction:column}.product-icon{height:130px;display:grid;place-items:center;background:linear-gradient(135deg,#eee8fb,#fff5dd);font-size:65px;overflow:hidden}.product-icon img{width:100%;height:100%;object-fit:contain;padding:8px;background:#fff}.product-body{padding:16px;display:flex;flex-direction:column;flex:1}.product h3{margin:0;font-size:18px}.product p{color:var(--muted);font-size:13px;margin:6px 0 10px}.price{font-weight:850;color:var(--purple);font-size:18px;margin-top:auto;padding:5px 0 12px}.product .btn{font-size:13px;padding:10px 9px}.product-actions{display:flex;gap:7px}
+.tint{background:#eeeaf7}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:white;border:1px solid var(--line);border-radius:15px;padding:24px}.service .emoji{font-size:35px}.service h3{margin:10px 0 6px}.service p{margin:0;color:var(--muted);font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;background:white;padding:32px;border-radius:20px;border:1px solid var(--line)}.about h2{margin-top:0}.about p{color:var(--muted)}.ticks{padding:0;list-style:none}.ticks li{padding:7px 0}
+.cart-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 8px 25px #20143b09}.panel h3{margin:0 0 15px}.cart-row{display:grid;grid-template-columns:1fr auto auto auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.qty{display:flex;align-items:center;gap:7px}.qty button,.remove{border:0;border-radius:6px;padding:5px 9px;background:#eeeaf7;cursor:pointer}.remove{background:#ffeded;color:#a32626}.total{display:flex;justify-content:space-between;font-size:21px;font-weight:850;padding:17px 0}.empty{color:var(--muted);padding:15px 0}
+label{display:block;font-size:13px;font-weight:750;margin:10px 0 5px}input,textarea{width:100%;border:1px solid #dcd7e6;border-radius:8px;padding:11px;background:white}textarea{resize:vertical}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.paybox{margin-top:16px;padding:17px;background:#f8f6fc;border-radius:12px;text-align:center}.qr{min-height:170px;display:grid;place-items:center;margin:12px auto}.qr img{max-width:190px}.hint{font-size:12px;color:var(--muted)}.warning{background:#fff5d9;color:#755719;padding:12px;border-radius:9px;font-size:12px;margin-top:12px}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact{background:white;border:1px solid var(--line);border-radius:14px;text-align:center;padding:22px}.contact .emoji{font-size:34px}.contact p{color:var(--muted);font-size:14px;overflow-wrap:anywhere}
+footer{background:var(--ink);color:#e8e3f1;padding:38px 0;text-align:center}footer h2{color:var(--gold);margin:0}footer p{font-size:13px;color:#c8c1d8}.footlinks{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:18px 0}
+.floaters{position:fixed;right:15px;bottom:18px;z-index:30;display:grid;gap:9px}.floaters a{width:49px;height:49px;border-radius:50%;display:grid;place-items:center;color:white;font-size:22px;box-shadow:0 5px 18px #0003}.floatwa{background:#159b63}.floatcall{background:var(--purple)}
+
+.admin-entry{background:#3a2d59;color:#fff;border:1px solid #ffffff33;border-radius:8px;padding:8px 12px;font-weight:750;cursor:pointer}
+.admin-section{background:#fff;border:2px solid #d8c9f7;border-radius:16px;padding:22px;margin:24px auto;max-width:900px;box-shadow:0 8px 25px #20143b0b}
+.admin-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.admin-status{padding:10px;border-radius:8px;background:#f4f0fb;color:#493579;font-size:13px;margin:10px 0}.admin-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.admin-list{display:grid;gap:8px;margin-top:16px}.admin-item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px;border:1px solid var(--line);border-radius:9px}.admin-item button{border:0;border-radius:7px;padding:7px 10px;background:#eeeaf7;cursor:pointer}.admin-hidden{display:none!important}
+@media(max-width:560px){.admin-grid{grid-template-columns:1fr}.admin-section{padding:15px}.admin-item{align-items:flex-start;flex-direction:column}}
+
+@media(max-width:850px){.products{grid-template-columns:repeat(2,1fr)}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:190px}.services,.contact-grid{grid-template-columns:1fr 1fr}.cart-layout{grid-template-columns:1fr}}
+@media(max-width:560px){.top .wrap{justify-content:center;text-align:center}.head{padding:13px 0;justify-content:center;text-align:center}.brand{font-size:20px}.actions{justify-content:center}.navlinks{gap:12px;font-size:12px}.hero{padding:55px 0}.products{gap:11px}.product-icon{height:105px;font-size:52px}.product-icon img{padding:5px}.product-body{padding:12px}.product h3{font-size:16px}.product-actions{flex-direction:column}.product .btn{width:100%}.services,.contact-grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;padding:22px}.field-grid{grid-template-columns:1fr}.cart-row{grid-template-columns:1fr auto;gap:7px}.cart-row .qty{grid-column:1}.cart-row .remove{grid-column:2;grid-row:2}.panel{padding:16px}section{padding:48px 0}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>📍 Mission Road, Sadar Bazar, Chitrakoot Dham, Karwi</span><span>📞 +91 9580382462&nbsp; | &nbsp;+91 9198932864</span></div></div>
+<header><div class="wrap head">
+  <a class="brand" href="#home">🎵 MISHRA HARMONIUM WORKS<small>MUSICAL INSTRUMENTS • SALES • REPAIRING</small></a>
+  <div class="actions"><a class="btn green" href="https://wa.me/919580382462" target="_blank" rel="noopener">WhatsApp</a><a class="btn gold" href="tel:+919580382462">Call Now</a></div>
+</div></header>
+<nav><div class="wrap navlinks"><a href="#home">Home</a><a href="#products">Products</a><a href="#services">Repairing Services</a><a href="#accessories">Accessories</a><a href="#about">About Us</a><a href="#contact">Contact Us</a><a href="#cart">🛒 Cart (<span id="cartCount">0</span>)</a><button class="admin-entry" type="button" onclick="toggleOwnerPanel()">Owner Login</button></div></nav>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div><div class="eyebrow">Your local music store</div><h1>Suron ka saathi,<br><span>MISHRA HARMONIUM WORKS</span></h1><p>Musical instruments, useful accessories aur vishesh repairing services — sab ek hi jagah. Apna order WhatsApp par bhejein ya UPI se payment karein.</p><div class="hero-buttons"><a class="btn gold" href="#products">Products dekhein</a><a class="btn outline" href="#services">Repairing book karein</a></div></div>
+ <div class="hero-art"><div><div class="music">🎹 🥁</div><strong>Instruments • Accessories • Repairs</strong><span class="hint">Karwi, Chitrakoot</span></div></div>
+</div></section>
+
+<section id="products"><div class="wrap"><div class="section-head"><h2>Musical Instruments</h2><p>Apni pasand ka instrument cart mein add karein. Final price aur availability WhatsApp par confirm hogi.</p></div><div class="products" id="productList"></div></div></section>
+<section class="tint" id="accessories"><div class="wrap"><div class="section-head"><h2>Musical Accessories</h2><p>Daily use aur instrument care ke liye zaroori accessories.</p></div><div class="products" id="accessoryList"></div></div></section>
+<section id="services"><div class="wrap"><div class="section-head"><h2>Repairing Services</h2><p>Instrument ki jaanch aur marammat ke liye humse sampark karein.</p></div><div class="services">
+ <article class="service"><div class="emoji">🎹</div><h3>Harmonium Repairing & Tuning</h3><p>Harmonium servicing, tuning, reed checking aur maintenance.</p></article>
+ <article class="service"><div class="emoji">🎛️</div><h3>Organ Pad Repairing</h3><p>Organ pad repairing aur replacement ki suvidha.</p></article>
+ <article class="service"><div class="emoji">🥁</div><h3>All Musical Instruments</h3><p>Dholak, tabla aur anya musical instruments ki marammat ke liye sampark karein.</p></article>
+</div><p style="text-align:center;margin-top:24px"><a class="btn green" target="_blank" rel="noopener" href="https://wa.me/919580382462?text=Namaste%2C%20mujhe%20instrument%20repairing%20service%20ke%20liye%20jaankari%20chahiye.">Repairing ke liye WhatsApp karein</a></p></div></section>
+<section class="tint" id="about"><div class="wrap"><div class="about"><div><div class="eyebrow">About our shop</div><h2>MISHRA HARMONIUM WORKS</h2><p>Hum musical instruments ki selling, accessories aur repairing services ke liye aapki madad karte hain. Product ki availability, exact price aur repair estimate order se pehle confirm karein.</p><a class="btn purple" href="#contact">Humse sampark karein</a></div><div><h2>Why choose us?</h2><ul class="ticks"><li>✓ Musical instruments aur accessories</li><li>✓ Harmonium tuning aur repairing</li><li>✓ Order details WhatsApp par</li><li>✓ Direct UPI payment option</li><li>✓ Local shop support, Karwi</li></ul></div></div></div></section>
+<section id="cart"><div class="wrap"><div class="section-head"><h2>Your Shopping Cart</h2><p>Order bhejne se pehle items aur total check kar lein.</p></div><div class="cart-layout">
+ <div class="panel"><h3>🛒 Cart Items</h3><div id="cartItems"><div class="empty">Aapka cart abhi khaali hai.</div></div><div class="total"><span>Total</span><span>₹<span id="total">0</span></span></div><button class="btn outline" style="color:#51476b;border-color:#d9d2e8" onclick="clearCart()">Cart clear karein</button></div>
+ <div class="panel"><h3>Customer & Payment</h3><form id="orderForm"><div class="field-grid"><div><label for="custName">Naam *</label><input id="custName" required autocomplete="name" placeholder="Aapka naam"></div><div><label for="custPhone">Mobile *</label><input id="custPhone" required inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10 digit number"></div></div><label for="custAddress">Delivery / Contact Address *</label><textarea id="custAddress" required rows="2" placeholder="Poora pata"></textarea><label for="custNote">Order note (optional)</label><textarea id="custNote" rows="2" placeholder="Product size, quantity ya anya jaankari"></textarea><button class="btn green" style="width:100%;margin-top:12px" type="submit">WhatsApp par order bhejein</button></form>
+ <div class="paybox"><h3>UPI QR Payment</h3><p class="hint">Cart total ke liye QR tab banega jab aap apni asli UPI ID set karenge.</p><div class="qr" id="qrBox">UPI ID configure karna baaki hai.</div><strong>Payable: ₹<span id="qrAmount">0</span></strong><p><button class="btn purple" onclick="payUPI()">UPI App kholein</button></p><div class="warning">Payment karne se pehle UPI app mein receiver ka naam aur amount verify karein. Payment success ko website automatically verify nahi karti. Order/payment confirmation ke liye shop se WhatsApp par baat karein.</div></div>
+ </div></div></div></section>
+<section class="tint" id="contact"><div class="wrap"><div class="section-head"><h2>Contact & Location</h2><p>Order, repairing ya product availability ke liye sampark karein.</p></div><div class="contact-grid">
+ <div class="contact"><div class="emoji">📞</div><h3>Call</h3><p><a href="tel:+919580382462">+91 9580382462</a><br><a href="tel:+919198932864">+91 9198932864</a></p><a class="btn purple" href="tel:+919580382462">Call now</a></div>
+ <div class="contact"><div class="emoji">💬</div><h3>WhatsApp Support</h3><p>Order aur help ke liye message bhejein.</p><a class="btn green" href="https://wa.me/919580382462" target="_blank" rel="noopener">Chat now</a></div>
+ <div class="contact"><div class="emoji">📍</div><h3>Visit our shop</h3><p>Mission Road, Sadar Bazar, Chitrakoot Dham, Karwi</p><a class="btn purple" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Mission+Road+Sadar+Bazar+Chitrakoot+Dham+Karwi">Google Maps</a></div>
+</div></div></section>
+
+<section id="ownerPanel" class="tint admin-hidden"><div class="wrap"><div class="admin-section">
+ <div class="section-head"><h2>Owner Admin Panel</h2><p>यह पैनल केवल अधिकृत Owner अकाउंट से खुलेगा।</p></div>
+ <div id="ownerStatus" class="admin-status">Firebase सेटअप के बाद Owner ईमेल और पासवर्ड से लॉगिन करें।</div>
+ <form id="ownerLoginForm"><div class="admin-grid"><div><label for="ownerEmail">Owner Email</label><input id="ownerEmail" type="email" autocomplete="username" required placeholder="आपका Firebase admin email"></div><div><label for="ownerPassword">Password</label><input id="ownerPassword" type="password" autocomplete="current-password" required placeholder="आपका पासवर्ड"></div></div><div class="admin-actions"><button class="btn purple" type="submit">Secure Login</button></div></form>
+ <div id="ownerEditor" class="admin-hidden">
+  <hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+  <h3 id="editorTitle">नया सामान जोड़ें / सामान अपडेट करें</h3>
+  <form id="productAdminForm"><input type="hidden" id="editProductId"><div class="admin-grid">
+   <div><label for="adminName">सामान का नाम</label><input id="adminName" required maxlength="60" placeholder="जैसे Harmonium"></div>
+   <div><label for="adminCategory">कैटेगरी</label><select id="adminCategory" required><option value="instrument">Musical Instrument</option><option value="accessory">Accessory</option></select></div>
+   <div><label for="adminIcon">आइकन / Emoji (फोटो न हो तो)</label><input id="adminIcon" maxlength="8" placeholder="जैसे 🎹"></div>
+   <div><label for="adminPrice">कीमत (₹)</label><input id="adminPrice" type="number" min="0" step="1" required placeholder="उदाहरण: 6500"></div>
+  </div><div style="margin-top:12px"><label for="adminImage">प्रोडक्ट की फोटो अपलोड करें (JPG, PNG, WEBP — अधिकतम 5 MB)</label><input id="adminImage" type="file" accept="image/jpeg,image/png,image/webp"><div id="imagePreview" class="hint" style="margin-top:8px">अभी कोई नई फोटो नहीं चुनी गई।</div><label style="display:flex;gap:8px;align-items:center;margin-top:8px"><input id="removeProductImage" type="checkbox" style="width:auto"> मौजूदा फोटो हटाएँ</label></div><label for="adminDesc">छोटा विवरण</label><input id="adminDesc" maxlength="120" placeholder="सामान का विवरण">
+  <div class="admin-actions"><button class="btn purple" type="submit">सेव करें</button><button class="btn outline" style="color:#51476b;border-color:#d9d2e8" type="button" onclick="resetAdminForm()">नया फॉर्म</button><button class="btn green" type="button" onclick="ownerLogout()">Logout</button></div></form>
+  <h3 style="margin-top:24px">मौजूदा सामान</h3><div id="adminProductList" class="admin-list"></div>
+ </div>
+</div></div></section>
+</main>
+<footer><div class="wrap"><h2>🎵 MISHRA HARMONIUM WORKS</h2><p>Musical Instruments • Selling • Repairing • Accessories</p><p>Mission Road, Sadar Bazar, Chitrakoot Dham, Karwi</p><p>+91 9580382462 | +91 9198932864</p><div class="footlinks"><a href="#home">Home</a><a href="#products">Products</a><a href="#services">Services</a><a href="#contact">Contact</a><a href="https://wa.me/919580382462">WhatsApp</a></div><p>© <span id="year"></span> Mishra Harmonium Works. All rights reserved.</p></div></footer>
+<div class="floaters"><a class="floatwa" href="https://wa.me/919580382462" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a><a class="floatcall" href="tel:+919580382462" aria-label="Call">☎</a></div>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { getFirestore, collection, doc, getDocs, setDoc, deleteDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import { getStorage, ref as storageRef, uploadBytes, getDownloadURL, deleteObject } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
+
+/* Firebase Console se apni Web App config yahan paste karein. */
+const firebaseConfig = {
+  apiKey: "PASTE_API_KEY",
+  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
+  projectId: "PASTE_PROJECT_ID",
+  storageBucket: "PASTE_PROJECT_ID.appspot.com",
+  messagingSenderId: "PASTE_MESSAGING_SENDER_ID",
+  appId: "PASTE_APP_ID"
+};
+/* Firebase Authentication mein banaye gaye Owner user ka UID yahan paste karein.
+   Isi UID ko firestore.rules mein bhi set karna zaroori hai. */
+const OWNER_UID = "PASTE_OWNER_UID";
+const SHOP_UPI_ID = "YOUR-UPI-ID@BANK";
+const SHOP_UPI_NAME = "Mishra Harmonium Works";
+const WHATSAPP_NUMBER = "919580382462";
+
+const defaultInstruments = [
+ {id:"harmonium",name:"Harmonium",icon:"🎹",price:6500,desc:"Harmonium — price/stock confirm karein",category:"instrument"},
+ {id:"dholak",name:"Dholak",icon:"🥁",price:1800,desc:"Traditional dholak",category:"instrument"},
+ {id:"tabla",name:"Tabla",icon:"🪘",price:3500,desc:"Tabla set",category:"instrument"},
+ {id:"dafli",name:"Dafli",icon:"🪇",price:450,desc:"Dafli",category:"instrument"},
+ {id:"mridang",name:"Mridang",icon:"🥁",price:2500,desc:"Mridang",category:"instrument"},
+ {id:"damru",name:"Damru",icon:"🔔",price:250,desc:"Damru",category:"instrument"},
+ {id:"kartal",name:"Kartal",icon:"🎼",price:350,desc:"Kartal",category:"instrument"},
+ {id:"nagada",name:"Nagada",icon:"🥁",price:3000,desc:"Nagada",category:"instrument"}
+];
+const defaultAccessories = [
+ {id:"instrument-bag",name:"Instrument Bag",icon:"🎒",price:650,desc:"Instrument carry bag",category:"accessory"},
+ {id:"strap",name:"Strap",icon:"🎸",price:250,desc:"Instrument strap",category:"accessory"},
+ {id:"tuning-hammer",name:"Tuning Hammer",icon:"🔧",price:180,desc:"Tuning accessory",category:"accessory"},
+ {id:"spare-reeds",name:"Spare Reeds",icon:"🎵",price:300,desc:"Harmonium spare reeds",category:"accessory"},
+ {id:"mizrab",name:"Mizrab",icon:"🎼",price:100,desc:"Mizrab",category:"accessory"},
+ {id:"other-accessories",name:"Other Accessories",icon:"🎶",price:150,desc:"Other music accessories",category:"accessory"}
+];
+let allProducts=[...defaultInstruments,...defaultAccessories], cart=[];
+try{cart=JSON.parse(localStorage.getItem("mitra_cart")||"[]");if(!Array.isArray(cart))cart=[];}catch(e){cart=[];}
+const money=n=>Number(n||0).toLocaleString("en-IN");
+const configReady=Object.values(firebaseConfig).every(v=>v && !String(v).startsWith("PASTE_")) && OWNER_UID && !OWNER_UID.startsWith("PASTE_");
+let app=null,auth=null,db=null,storage=null,productsUnsubscribe=null,currentOwner=null;
+// First owner login par demo catalog ko Firestore mein ek baar save karein.
+async function seedCatalogIfEmpty(){
+  if(!db || !currentOwner) return;
+  try {
+    const existing = await getDocs(collection(db,"products"));
+    if(!existing.empty) return;
+    const starter = [...defaultInstruments,...defaultAccessories];
+    await Promise.all(starter.map(p => setDoc(doc(db,"products",p.id), {
+      name:p.name, icon:p.icon, price:p.price, desc:p.desc,
+      category:p.category, updatedAt:new Date().toISOString()
+    })));
+    setStatus("शुरुआती सामान सूची सेव हो गई। अब आप नाम और कीमत अपडेट कर सकते हैं।");
+  } catch(err) {
+    console.error(err);
+    setStatus("शुरुआती सामान सेव नहीं हुआ। Firestore Rules और Owner UID जाँचें।",true);
+  }
+}
+if(configReady){try{app=initializeApp(firebaseConfig);auth=getAuth(app);db=getFirestore(app);storage=getStorage(app);onAuthStateChanged(auth,user=>{currentOwner=user&&user.uid===OWNER_UID?user:null;document.getElementById("ownerEditor").classList.toggle("admin-hidden",!currentOwner);if(user&&!currentOwner){setStatus("यह अकाउंट Owner के रूप में अधिकृत नहीं है।",true);signOut(auth).catch(()=>{});}else if(currentOwner){setStatus("Owner login सफल। अब आप सामान और कीमत बदल सकते हैं।");seedCatalogIfEmpty();}});startProductFeed();}catch(e){console.error(e);}}
+function setStatus(message,error=false){const el=document.getElementById("ownerStatus");el.textContent=message;el.style.background=error?"#fff0f0":"#f4f0fb";el.style.color=error?"#9b2525":"#493579";}
+function startProductFeed(){if(!db)return;productsUnsubscribe=onSnapshot(collection(db,"products"),snap=>{if(snap.empty){allProducts=[...defaultInstruments,...defaultAccessories];}else{allProducts=snap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>a.name.localeCompare(b.name));}renderProducts();renderCart();if(currentOwner)renderAdminList();},err=>{console.error(err);setStatus("Products load nahi hue. Firebase Firestore Rules/config check karein.",true);});}
+function renderProducts(){document.getElementById("productList").innerHTML=allProducts.filter(p=>p.category==="instrument").map(productCard).join("");document.getElementById("accessoryList").innerHTML=allProducts.filter(p=>p.category==="accessory").map(productCard).join("");}
+function productCard(p){const safeId=String(p.id).replace(/[^a-zA-Z0-9_-]/g,"");const visual=p.imageUrl?`<img src="${escapeHtml(p.imageUrl)}" alt="${escapeHtml(p.name)}" loading="lazy">`:escapeHtml(p.icon||"🎵");return `<article class="product"><div class="product-icon">${visual}</div><div class="product-body"><h3>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.desc||"")}</p><div class="price">₹${money(p.price)}</div><div class="product-actions"><button class="btn purple" onclick="addToCart('${safeId}')">Add to Cart</button><button class="btn green" onclick="quickOrder('${safeId}')">Order Now</button></div></div></article>`;}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function persist(){try{localStorage.setItem("mitra_cart",JSON.stringify(cart));}catch(e){}renderCart();}
+function addToCart(id){const p=allProducts.find(x=>x.id===id);if(!p)return;const old=cart.find(x=>x.id===id);if(old)old.qty++;else cart.push({...p,qty:1});persist();document.getElementById("cart").scrollIntoView({behavior:"smooth"});}
+function setQty(id,delta){const p=cart.find(x=>x.id===id);if(!p)return;p.qty+=delta;if(p.qty<=0)cart=cart.filter(x=>x.id!==id);persist();}
+function removeItem(id){cart=cart.filter(x=>x.id!==id);persist();}
+function clearCart(){cart=[];persist();}
+function total(){return cart.reduce((s,p)=>s+(Number(p.price)||0)*(Number(p.qty)||0),0);}
+function renderCart(){const count=cart.reduce((s,p)=>s+(Number(p.qty)||0),0),sum=total();document.getElementById("cartCount").textContent=count;document.getElementById("total").textContent=money(sum);document.getElementById("qrAmount").textContent=money(sum);const box=document.getElementById("cartItems");box.innerHTML=cart.length?cart.map(p=>`<div class="cart-row"><div><strong>${escapeHtml(p.icon||"🎵")} ${escapeHtml(p.name)}</strong><br><span class="hint">₹${money(p.price)} each</span></div><div class="qty"><button type="button" onclick="setQty('${p.id}',-1)" aria-label="Decrease">−</button><b>${p.qty}</b><button type="button" onclick="setQty('${p.id}',1)" aria-label="Increase">+</button></div><strong>₹${money(p.price*p.qty)}</strong><button class="remove" type="button" onclick="removeItem('${p.id}')">Remove</button></div>`).join(""):'<div class="empty">Aapka cart abhi khaali hai. Products section se items add karein.</div>';renderQR();}
+function upiLink(){const sum=total();return `upi://pay?pa=${encodeURIComponent(SHOP_UPI_ID)}&pn=${encodeURIComponent(SHOP_UPI_NAME)}&am=${sum.toFixed(2)}&cu=INR&tn=${encodeURIComponent("Mishra Harmonium Works order")}`;}
+function renderQR(){const box=document.getElementById("qrBox");box.innerHTML="";if(!cart.length){box.textContent="QR ke liye pehle cart mein product add karein.";return;}if(!SHOP_UPI_ID||SHOP_UPI_ID==="YOUR-UPI-ID@BANK"){box.textContent="UPI ID set karna baaki hai.";return;}const img=document.createElement("img");img.alt="UPI payment QR code";img.width=190;img.height=190;img.src="https://api.qrserver.com/v1/create-qr-code/?size=190x190&data="+encodeURIComponent(upiLink());box.appendChild(img);}
+function payUPI(){if(!cart.length){alert("Pehle cart mein product add karein.");return;}if(!SHOP_UPI_ID||SHOP_UPI_ID==="YOUR-UPI-ID@BANK"){alert("Pehle code mein apni asli UPI ID set karein.");return;}location.href=upiLink();}
+function quickOrder(id){const p=allProducts.find(x=>x.id===id);if(!p)return;const msg=`Namaste ${SHOP_UPI_NAME}, mujhe ${p.name} order karna hai. Website par dikhaya gaya rate ₹${p.price} hai. Kripya stock aur final price confirm karein.`;window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,"_blank","noopener");}
+document.getElementById("orderForm").addEventListener("submit",e=>{e.preventDefault();if(!cart.length){alert("Cart khaali hai. Pehle product add karein.");return;}const name=document.getElementById("custName").value.trim(),phone=document.getElementById("custPhone").value.trim(),address=document.getElementById("custAddress").value.trim(),note=document.getElementById("custNote").value.trim();const lines=cart.map(p=>`${p.name} x ${p.qty} = Rs. ${p.price*p.qty}`).join("\n");const msg=`NEW ORDER - ${SHOP_UPI_NAME}\nCustomer: ${name}\nMobile: ${phone}\nAddress: ${address}\n\nItems:\n${lines}\n\nTotal: Rs. ${total()}\nNote: ${note}\n\nKripya order aur delivery confirm karein.`;window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,"_blank","noopener");});
+function toggleOwnerPanel(){document.getElementById("ownerPanel").classList.toggle("admin-hidden");document.getElementById("ownerPanel").scrollIntoView({behavior:"smooth"});}
+document.getElementById("ownerLoginForm").addEventListener("submit",async e=>{e.preventDefault();if(!auth||!configReady){setStatus("Pehle Firebase config index.html mein set karke deploy karein.",true);return;}const email=document.getElementById("ownerEmail").value.trim(),password=document.getElementById("ownerPassword").value;try{await signInWithEmailAndPassword(auth,email,password);}catch(err){setStatus("Login nahi hua: email/password check karein. ("+err.code+")",true);}});
+function resetAdminForm(){document.getElementById("productAdminForm").reset();document.getElementById("editProductId").value="";document.getElementById("editorTitle").textContent="नया सामान जोड़ें / सामान अपडेट करें";document.getElementById("imagePreview").textContent="अभी कोई नई फोटो नहीं चुनी गई।";}
+function editProduct(id){const p=allProducts.find(x=>x.id===id);if(!p)return;document.getElementById("editProductId").value=p.id;document.getElementById("adminName").value=p.name;document.getElementById("adminCategory").value=p.category;document.getElementById("adminIcon").value=p.icon;document.getElementById("adminPrice").value=p.price;document.getElementById("adminDesc").value=p.desc||"";document.getElementById("removeProductImage").checked=false;document.getElementById("imagePreview").innerHTML=p.imageUrl?`<img src="${escapeHtml(p.imageUrl)}" alt="मौजूदा फोटो" style="max-width:140px;max-height:110px;object-fit:contain;border:1px solid #ddd;border-radius:8px">`:("मौजूदा फोटो नहीं है।");document.getElementById("editorTitle").textContent="सामान अपडेट करें: "+p.name;document.getElementById("productAdminForm").scrollIntoView({behavior:"smooth"});}
+async function deleteProduct(id){if(!currentOwner||!db)return;if(!confirm("Kya aap is product ko delete karna chahte hain?"))return;try{const product=allProducts.find(p=>p.id===id);if(product?.imagePath&&storage){try{await deleteObject(storageRef(storage,product.imagePath));}catch(imageErr){console.warn("Photo cleanup:",imageErr);}}await deleteDoc(doc(db,"products",id));}catch(e){setStatus("Delete nahi hua. Firestore Rules check karein.",true);}}
+function renderAdminList(){const el=document.getElementById("adminProductList");el.innerHTML=allProducts.map(p=>`<div class="admin-item"><span>${p.imageUrl?`<img src="${escapeHtml(p.imageUrl)}" alt="" style="width:34px;height:34px;object-fit:contain;vertical-align:middle">`:escapeHtml(p.icon||"🎵")} <strong>${escapeHtml(p.name)}</strong> — ₹${money(p.price)}</span><span><button type="button" onclick="editProduct('${p.id}')">Edit</button> <button type="button" onclick="deleteProduct('${p.id}')">Delete</button></span></div>`).join("")||"Abhi koi product nahi hai.";}
+document.getElementById("adminImage").addEventListener("change",e=>{const file=e.target.files?.[0],preview=document.getElementById("imagePreview");if(!file){preview.textContent="अभी कोई नई फोटो नहीं चुनी गई।";return;}if(!["image/jpeg","image/png","image/webp"].includes(file.type)||file.size>5*1024*1024){e.target.value="";preview.textContent="कृपया JPG, PNG या WEBP फोटो चुनें, जिसका आकार 5 MB से कम हो।";return;}const url=URL.createObjectURL(file);preview.innerHTML="";const img=document.createElement("img");img.src=url;img.alt="फोटो प्रीव्यू";img.style="max-width:140px;max-height:110px;object-fit:contain;border:1px solid #ddd;border-radius:8px";preview.appendChild(img);});
+document.getElementById("productAdminForm").addEventListener("submit",async e=>{e.preventDefault();if(!currentOwner||!db||!storage){setStatus("पहले Owner login और Firebase Storage setup करें।",true);return;}const oldId=document.getElementById("editProductId").value;const name=document.getElementById("adminName").value.trim(),category=document.getElementById("adminCategory").value,icon=document.getElementById("adminIcon").value.trim()||"🎵",price=Number(document.getElementById("adminPrice").value),desc=document.getElementById("adminDesc").value.trim(),file=document.getElementById("adminImage").files?.[0],removeImage=document.getElementById("removeProductImage").checked;if(!name||!Number.isFinite(price)||price<0)return;if(file&&(!["image/jpeg","image/png","image/webp"].includes(file.type)||file.size>5*1024*1024)){setStatus("फोटो JPG/PNG/WEBP हो और 5 MB से कम होनी चाहिए।",true);return;}const id=oldId||name.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")+"-"+Date.now().toString(36);const previous=allProducts.find(p=>p.id===id);let imageUrl=previous?.imageUrl||"",imagePath=previous?.imagePath||"";try{if(file){const safeName=file.name.replace(/[^a-zA-Z0-9._-]/g,"_");imagePath=`products/${currentOwner.uid}/${id}/${Date.now()}-${safeName}`;const imageRef=storageRef(storage,imagePath);await uploadBytes(imageRef,file,{contentType:file.type});imageUrl=await getDownloadURL(imageRef);if(previous?.imagePath){try{await deleteObject(storageRef(storage,previous.imagePath));}catch(cleanupErr){console.warn("Old photo cleanup:",cleanupErr);}}}else if(removeImage){if(imagePath){try{await deleteObject(storageRef(storage,imagePath));}catch(cleanupErr){console.warn("Photo cleanup:",cleanupErr);}}imageUrl="";imagePath="";}await setDoc(doc(db,"products",id),{name,category,icon,price,desc,imageUrl,imagePath,updatedAt:new Date().toISOString()});setStatus("प्रोडक्ट और फोटो सफलतापूर्वक सेव हो गए।");resetAdminForm();}catch(err){console.error(err);setStatus("सेव नहीं हुआ। Firebase Storage Rules, bucket और Owner UID जाँचें। ("+(err.code||err.message)+")",true);}});
+async function ownerLogout(){if(auth)await signOut(auth);setStatus("Aap logout ho gaye hain.");resetAdminForm();}
+window.toggleOwnerPanel=toggleOwnerPanel;window.addToCart=addToCart;window.setQty=setQty;window.removeItem=removeItem;window.clearCart=clearCart;window.payUPI=payUPI;window.quickOrder=quickOrder;window.editProduct=editProduct;window.deleteProduct=deleteProduct;window.resetAdminForm=resetAdminForm;window.ownerLogout=ownerLogout;
+document.getElementById("year").textContent=new Date().getFullYear();renderProducts();renderCart();
+if(!configReady)setStatus("Firebase setup pending: pehle Firebase config aur Owner UID bharna hoga.",true);
+</script>
+</body>
+</html>
